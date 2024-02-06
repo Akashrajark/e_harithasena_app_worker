@@ -31,6 +31,7 @@ class DetailScreen extends StatelessWidget {
             Row(
               children: [
                 Text(
+                  
                   "Muncipality/Panchayath : ",
                   style: Theme.of(context)
                       .textTheme

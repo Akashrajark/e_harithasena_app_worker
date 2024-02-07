@@ -1,5 +1,6 @@
 import 'package:e_harithasena_worker/firebase_options.dart';
 import 'package:e_harithasena_worker/ui/screens/detailsscreen/detailsscreen.dart';
+import 'package:e_harithasena_worker/ui/screens/entryscreen/entryscreen.dart';
 import 'package:e_harithasena_worker/ui/screens/homescreen/homescreen.dart';
 import 'package:e_harithasena_worker/ui/screens/signinpage/signinpage.dart';
 import 'package:e_harithasena_worker/ui/screens/splashscreen/splashscreen.dart';
@@ -32,7 +33,8 @@ class MyApp extends StatelessWidget {
         SignInPage.routename: (context) => const SignInPage(),
         HomePage.routename: (context) => const HomePage(),
         DetailScreen.routename: (context) => const DetailScreen(),
-        UnavailableScreen.routename:(context)=> const UnavailableScreen()
+        UnavailableScreen.routename:(context)=> const UnavailableScreen(),
+        EntryScreen.routename:(context) => const EntryScreen()
       },
     );
   }

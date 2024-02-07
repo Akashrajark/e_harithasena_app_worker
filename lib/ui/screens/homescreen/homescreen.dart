@@ -1,4 +1,5 @@
 import 'package:e_harithasena_worker/ui/screens/detailsscreen/detailsscreen.dart';
+import 'package:e_harithasena_worker/ui/screens/entryscreen/entryscreen.dart';
 import 'package:e_harithasena_worker/ui/screens/signinpage/signinpage.dart';
 import 'package:e_harithasena_worker/ui/screens/unavailablehousesscreen/unavailablescreen.dart';
 import 'package:e_harithasena_worker/ui/values/color.dart';
@@ -59,9 +60,9 @@ class HomePage extends StatelessWidget {
                 image: 'assets/images/phone.jpg',
                 label: "Add Entries",
                 onTap: () {
-                
-                })
-          ],
+                 Navigator.pushNamed(context, EntryScreen.routename);
+                }),]
+             
         ),
       ),
     );
